@@ -1,0 +1,20 @@
+prefixes = ["admin", "administrator", "login", "user", "panel", "cpanel", "backend", "manager", "root", "dashboard"]
+suffixes = ["", "/", ".php", ".html", "/login", "/panel", "/admin", "/dashboard"]
+
+count = 0
+with open("wordlists/admin_paths.txt", "w") as f:
+    for p in prefixes:
+        for s in suffixes:
+            f.write(p + s + "\n")
+            count += 1
+            for i in range(1, 100):
+                f.write(f"{p}{i}{s}\n")
+                count += 1
+                if count >= 5000:
+                    break
+            if count >= 5000:
+                break
+        if count >= 5000:
+            break
+
+print(f"[+] Generated {count} admin paths in wordlists/admin_paths.txt")
