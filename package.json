@@ -1,0 +1,9 @@
+{
+  "name": "def4ult-admin-finder",
+  "version": "1.0.0",
+  "main": "def4ult_admin_finder.js",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "color-log": "^1.0.0"
+  }
+}
