@@ -1,12 +1,3 @@
-# Def4ult Admin Finder
-
-Multi-language Admin Finder Tool (Python / Node.js / Go)  
-Fast scanner, multithreaded, colorful CLI.
-
-## Usage
-
-### Python
-```bash
 cd python
 pip install -r requirements.txt
 python def4ult_admin_finder.py
@@ -43,5 +34,28 @@ go run def4ult_admin_finder.go https://example.com
 
 
 unzip ~/Downloads/Def4ult-Admin-Finder.zip -d ~/Def4ult-Admin-Finder && cd ~/Def4ult-Admin-Finder
+
+
+
+
+
+
+### Def4ult Admin Finder
+
+Multi-language Admin Finder Tool (Python / Node.js / Go)  
+Fast scanner, multithreaded, colorful CLI.
+
+### Usage
+
+### Python
+```bash
+
+
+#one-click comman
+git clone https://github.com/xdefult-coder/Admin-Finder.git ~/Def4ult-Admin-Finder && cd ~/Def4ult-Admin-Finder
+
+
+
+
 
 
