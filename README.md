@@ -39,3 +39,9 @@ cd ../go
 
 go run def4ult_admin_finder.go https://example.com
 
+
+
+
+unzip ~/Downloads/Def4ult-Admin-Finder.zip -d ~/Def4ult-Admin-Finder && cd ~/Def4ult-Admin-Finder
+
+
